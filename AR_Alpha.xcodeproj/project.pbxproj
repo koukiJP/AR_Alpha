@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A2D53BE29345E8900969ED6 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D53BD29345E8900969ED6 /* ItemView.swift */; };
+		2A2D53C029345EA600969ED6 /* GoOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D53BF29345EA600969ED6 /* GoOutView.swift */; };
+		2A2D53C229345EB300969ED6 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D53C129345EB300969ED6 /* ToDoView.swift */; };
+		2A2D53C52934646800969ED6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D53C42934646800969ED6 /* TabBarController.swift */; };
 		2A4871DC293456E400EC0896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4871DB293456E400EC0896 /* AppDelegate.swift */; };
 		2A4871DE293456E400EC0896 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4871DD293456E400EC0896 /* art.scnassets */; };
 		2A4871E0293456E400EC0896 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4871DF293456E400EC0896 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A2D53BD29345E8900969ED6 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		2A2D53BF29345EA600969ED6 /* GoOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoOutView.swift; sourceTree = "<group>"; };
+		2A2D53C129345EB300969ED6 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		2A2D53C42934646800969ED6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		2A4871D8293456E400EC0896 /* AR_Alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_Alpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4871DB293456E400EC0896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A4871DD293456E400EC0896 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -36,6 +44,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A2D53BC29345E5900969ED6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A4871DF293456E400EC0896 /* ViewController.swift */,
+				2A2D53BD29345E8900969ED6 /* ItemView.swift */,
+				2A2D53BF29345EA600969ED6 /* GoOutView.swift */,
+				2A2D53C129345EB300969ED6 /* ToDoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A2D53C32934644F00969ED6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A2D53C42934646800969ED6 /* TabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2A4871CF293456E400EC0896 = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				2A4871DB293456E400EC0896 /* AppDelegate.swift */,
+				2A2D53C32934644F00969ED6 /* Controller */,
+				2A2D53BC29345E5900969ED6 /* View */,
 				2A4871DD293456E400EC0896 /* art.scnassets */,
-				2A4871DF293456E400EC0896 /* ViewController.swift */,
 				2A4871E1293456E400EC0896 /* Main.storyboard */,
 				2A4871E4293456E500EC0896 /* Assets.xcassets */,
 				2A4871E6293456E500EC0896 /* LaunchScreen.storyboard */,
@@ -138,7 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A4871E0293456E400EC0896 /* ViewController.swift in Sources */,
+				2A2D53BE29345E8900969ED6 /* ItemView.swift in Sources */,
 				2A4871DC293456E400EC0896 /* AppDelegate.swift in Sources */,
+				2A2D53C52934646800969ED6 /* TabBarController.swift in Sources */,
+				2A2D53C029345EA600969ED6 /* GoOutView.swift in Sources */,
+				2A2D53C229345EB300969ED6 /* ToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +317,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N5H7MP57JB;
+				DEVELOPMENT_TEAM = 9PX23UAXQN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -295,6 +327,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N5H7MP57JB;
+				DEVELOPMENT_TEAM = 9PX23UAXQN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,6 +358,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
